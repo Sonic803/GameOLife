@@ -1,5 +1,5 @@
 
-
+let r=[0,1]
 class punto{
   constructor(a,k){
     this.x=0;
@@ -7,10 +7,12 @@ class punto{
     this.now=a;
     this.pri=a;
     this.kk=k;
+    this.c=color(255*random(r),255*random(r),255*random(r),255)
   }
   show(){
    if(this.now){
-
+       fill(this.c);
+       noStroke();
       square(this.x, this.y, this.kk);
    }
   }
