@@ -28,7 +28,7 @@ let d=true;
 let e=0;
 function draw() {
   createCanvas(windth,heigth);
-  background(100,100,100,100);
+  background(100,100,100,255);
   if(mouseX>windth){
     d=true;
   }
